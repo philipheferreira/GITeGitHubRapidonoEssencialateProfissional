@@ -1,0 +1,11 @@
+Ir no git bash e usar o git config --list apos instalar o git para verificar se o repositorio foi instalado corretamente
+
+Depois utilizar o git config --list --global
+
+se retornar algum erro e nao retornar o user.email e o user.name é porque é necessario registrar ambos. Necessario 
+realizar os dois comandos a baixo
+
+git config --global user.name "philipheferreira@gmail.com"
+git config --global user.email "philipheferreira"
+
+em seguida utlizar o comando git config --list --global novamente para verificar o funcionamento

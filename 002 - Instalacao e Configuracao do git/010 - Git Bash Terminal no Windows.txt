@@ -1,0 +1,5 @@
+Podesse utilizar o Git GUI
+
+usar o comando ls -l para poder acessar os arquivos locais na pasta atual -> Mesmo comando utilizado dentro do MacOS e o Linux
+
+No windows [e utilizado o dir
