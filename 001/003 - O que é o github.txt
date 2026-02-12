@@ -1,0 +1,20 @@
+O github é uma plataforma baseada na web que usa o Git para hospedar repositórios de código, facilitando
+a colaboração e a revisão de projetos.
+
+Foi criada em 2008, focado na interface de usuário para o GIT.
+
+Em 2018 a Microsoft comprou o github por 7,5 bilhões de dolares
+
+Funcionalidades: 
+
+Hospedagem de repositórios remotos (gratuitamente ou premium)
+
+Gestão de pull requests (PRs)
+
+sistema de rastreamento de tarefas (Issues)
+
+Mecanismos de auxílio à revisão de código
+
+Github Actions: automatização e deploy
+
+Wiki e pages: Para documentação de projetos

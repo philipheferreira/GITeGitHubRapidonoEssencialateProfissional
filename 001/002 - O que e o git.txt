@@ -1,0 +1,23 @@
+O git é uma aplicacao que funciona em linha de comando que funciona em repositorio. Dentro do repositorio eu faco commits que geram
+historicos e salvamentos de diferentes estados e desenvolvimento do projeto.
+
+O Git é um sistema de controle de versão que rastreia mudanças no código-fonte, facilitando a colabiora~~ao e permitindo o retorno 
+a qualquer estado anterior do projeto.
+
+*Um sistema de controle de versão (VCS) é um software para gerencias e rastrear as alterações em documentos, 
+códigos ou arquivos de um projeto ao longo do tempo.
+
+Git é uma aplicacao de software de linha de comando
+
+O Github é uma plataforma que salva o repositorio dos projetos
+
+Entre o 2002 e 2005, o kernel do linux usava o VCS bitKeeper (proprietário)
+
+entre 2005, o BitKeeper deixou de ser gratuito... Foi preciso buscar outro sistema
+
+Linus Torvalds desenvolveu, em algumas semanas, a primeira versão do GIT. A primeira versão
+foi lançada em Abril de 2005
+
+Devido ao design distruído e velocidade, o GIT tornou-se padrão rapidamente
+
+Outros sevicos, Mercurial, SVN, GIT
