@@ -1,0 +1,9 @@
+O GitHub gera repositorios Remotos, que funcionam acessando no github online. 
+
+O repositorio local funciona nas maquinas, logo localmente. Ele funciona em sintonia
+com os repositorios remotos gerados no GitHub, utilizamos alguns comandos para 
+fazer a atualizacao tanto do local quanto do remoto.
+
+No repositorio local existe uma pasta que fica oculta que e a .git, tem todas
+as informacoes do repositorio local (todos os commits, configuracoes, modificacoes).
+É uma pasta que não podemos mexer, só o git mexe nela

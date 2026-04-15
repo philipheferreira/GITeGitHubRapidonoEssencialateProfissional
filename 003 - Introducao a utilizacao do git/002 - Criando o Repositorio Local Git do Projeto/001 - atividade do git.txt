@@ -1,0 +1,4 @@
+Pode utilizar pelo git bash ou pelo cmd direto da pasta pra atualizar.
+
+Utilizando o comando git e apertar enter ira aparecer todas as funcionalidades dentro 
+do git, no caso todos os comandos e explicacoes sobre as palavras e encurtamentos dela
