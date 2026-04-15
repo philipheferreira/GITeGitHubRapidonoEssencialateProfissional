@@ -1,0 +1,3 @@
+Dentro do VScode já tem uma funcionalidade integrada com o github para atuar. 
+Ele automaticamente Realiza as operações, entretanto para o curso o foco sera nas linhas
+do git bash para realizar as operacoes da forma mais dificil e completa

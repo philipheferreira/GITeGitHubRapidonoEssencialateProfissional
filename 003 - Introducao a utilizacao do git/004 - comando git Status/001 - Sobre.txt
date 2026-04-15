@@ -1,0 +1,25 @@
+Utilizar o comando git status para mostrar as funcionalidades e operações dentro do 
+ambiente
+
+git status
+
+Ira mostrar a branch atual, se foi dado os comitts e estão atualizados, 
+as mudanças que foram feitas e ainda não foram realizados os commits e os arquivos
+que não foram atualizados
+Exemplo de resposta do projeto:
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   003 - Introducao a utilizacao do git/002 - Criando o Repositorio Local Git do Projeto/001 - atividade do git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        003 - Introducao a utilizacao do git/003 - Vscode com o git/
+        003 - Introducao a utilizacao do git/004 - comando git Status/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
