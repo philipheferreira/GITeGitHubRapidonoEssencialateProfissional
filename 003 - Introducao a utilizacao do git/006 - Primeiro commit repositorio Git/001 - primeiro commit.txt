@@ -15,4 +15,4 @@ isso necessario usar o comando completo a baixo
 
 O comando a cima tem o commit, o -m esta definido que em seguida sera mandado uma mensagem.
 
-Apos esse comiando
+Apos esse comando
