@@ -1,0 +1,18 @@
+Ficheiros "" --> Git statingArea --> Git commit
+O commit e o ato de guardar e atualizar o estado do projeto remoto no github.
+Guardando as informacoes do estado do projeto na branch remota no github, tanto 
+que existem comando especificos para Voltar o estado anterior do projeto por 
+ficar salvo no historico na branch remota.
+
+Comando a baixo faz o commit dentro do projeto mas a linha de comando esta incompleta
+
+	git commit 
+
+No caso o git entende que vai ser feito o commit mas a mensagem esta vazia, para 
+isso necessario usar o comando completo a baixo
+
+	git commit -m "Eu sou o comentario"
+
+O comando a cima tem o commit, o -m esta definido que em seguida sera mandado uma mensagem.
+
+Apos esse comiando
