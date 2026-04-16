@@ -1,0 +1,10 @@
+Quando voce quer ver uma informacao detalhada sobre seus commits dentro do projeto
+localmente é necessario apenas utilziar o comando a baixo:
+
+	git log
+
+O comando ira mostrar um historico detalhado de todos os commits dentro da branch localmente
+desde o primeiro commit dentro do projeto até o ultimo. Esse comando é bom e interessante
+para ver o historico dos commits e utilizar essa informação para voltar 
+o projeto para o estado do commit de interesse, caso tenha realizado alguma alteração 
+indevida que não é de interesse
