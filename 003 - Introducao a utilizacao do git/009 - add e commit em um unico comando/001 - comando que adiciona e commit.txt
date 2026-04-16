@@ -1,0 +1,8 @@
+Para realizar o comando de adicionar e commitar em uma unica linha é algo bem simples.
+Primeiro, relembrando que o comando de adicionar é git add e o de commitar é 
+git commit -m "". Agora para fazer os dois em uma unica linha é o seguinte comando:
+
+	git commit -am "mensagem do commit"
+
+O a depois do traço é abreviação para add e o m, como já havia informando antes, é 
+abreviação de mensagem

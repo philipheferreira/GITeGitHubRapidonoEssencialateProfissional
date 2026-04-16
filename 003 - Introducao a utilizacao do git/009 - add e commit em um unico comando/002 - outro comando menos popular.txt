@@ -1,0 +1,7 @@
+Caso queira fazer um outro comando que tambem adiciona e commita ao mesmo
+tempo mas seria menos utilizado é o seguinte a baixo: 
+
+	git add . && git commit -m "Mensagem que vai com o commit"
+
+Esse comando é mais verboso que o anterior, por isso é menos utilizado mas a sua
+sintaxe é mais facil de entender e compreender
