@@ -1,0 +1,21 @@
+Quando adicionamos ficheiros ao git stage area, que [e uma area temporada
+que os arquivos novos ficam temporariamentos reservados para serem atualizados no
+repositorio remoto dentro do github
+
+ficheiros "desconhecidos" --> Git Staging Area --> Git Commit
+
+No caso se eu estiver na mesma pasta que o arquivo que precise ser adicionados e
+eu realizar o seguinte comando:
+
+git add nome_do_arquivo.tipoDoArquivo
+
+Ira adicionar esse arquivo ao ficheiro o preparando para mandar para o repositorio remoto 
+localizado no github. ex:
+
+git add 001_-_sobre.txt
+
+git add script.js
+
+caso eu queira adicionar todos os arquivos na pasta seria so usar o add e um ponto. ex:
+
+git add .

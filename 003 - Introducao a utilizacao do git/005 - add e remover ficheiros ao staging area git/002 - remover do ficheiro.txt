@@ -1,0 +1,27 @@
+caso eu tenha adicionar um arquivo ou arquivos que nao queira mandar para o repositorio
+remoto ao ficheiro, so seria preciso removelos do ficheiro. A baixo esta o comando necessario
+para remover ao ficheiro:
+
+	git reset 001_-_adicionar_ao_ficheiro
+
+ou para remover todos os arquivos pode usar o seguitne comando
+
+	git reset .
+
+tambem pode usar um novo comando que foi criado recentemente que funciona muito bem
+
+	git restore --staged
+
+vale ressaltar que o comando restore so ira funcionar se tivermos pelo menos um 
+commit registrado dentro do repositorio remoto
+
+Depois de adicionar os arquivos que nao haviam sido adicionados no ficheiro use um 
+git status de novo e verifique que foi realizada a mudanca
+
+Fluxo das operacoes:
+
+Ficheiro desconhecidos --> Git stagin area -- Git Commit
+
+fluxo dos ambientes:
+
+Repositorio local Git --> Ficheiro --> Remositorio remoto no github
