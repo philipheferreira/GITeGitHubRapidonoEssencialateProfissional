@@ -1,0 +1,5 @@
+Ficheiros "desconhecidos" --> Git Staging Area --> Commit (snapshot histórico do código)
+
+A partir desse capitulo irei adicionar um projeto simples em html e css que irei 
+fazer pra fazer o teste de todo o cenario usando os comandos git status, git add,
+git commit e git log.
