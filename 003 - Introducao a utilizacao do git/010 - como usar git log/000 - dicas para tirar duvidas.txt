@@ -1,0 +1,13 @@
+Outros metodos que posso usar para fazer operacoes no git, um exemplo é 
+o 
+
+	git commit -h
+
+o -h é abrevição para help. Então ele vai mostrar o compilado de comandos dentro
+de git commit e o que posso fazer e alguns comandos. Muitos deles não irei utilizar
+Pois são extremamente especificos
+também posso fazer isso no add usando
+
+	git add -h
+
+Mostra todas as operações possiveis dentro de git add

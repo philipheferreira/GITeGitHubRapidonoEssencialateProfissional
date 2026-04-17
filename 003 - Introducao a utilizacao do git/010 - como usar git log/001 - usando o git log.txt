@@ -1,0 +1,25 @@
+O git log também tem a opção de fazer a verificação dentro das operações do que pode
+ou não fazer. Caso queira é só o utilizar o comando a baixo:
+
+	git log -h
+
+Assim posso verificar o que posso ou não fazer dentro do git local.
+Também tem uma forma de representar os dados de uma forma diferente utilizando o
+comando a baixo:
+
+	git log --graph
+
+Bom pra utilizar duas branchs no mesmo projeto, mostrando as informações de 
+uma forma mais especifica e visualmente melhor. Outra forma de verificar as informaçoes
+é utilizando o comando a baixo::
+
+	git log --oneline
+
+Mostra as informações de forma mais resumida e sunsita.
+
+Tambem tem a operacao que mostra em tese todos os logs mas eu achei ela muito parecida
+com o comando base do git log, que seria o comando a baixo que em tese mostra tudo sobre
+os logs registrados: 
+
+	git log --all
+
