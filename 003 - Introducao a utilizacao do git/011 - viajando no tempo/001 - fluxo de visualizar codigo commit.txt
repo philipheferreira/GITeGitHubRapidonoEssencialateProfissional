@@ -1,0 +1,61 @@
+Consigo ver localmente o estado que o projeto estava, sem perder o que havia
+feito só pelos comandos dentro do git para verificar o estado em cada 
+commit especifico no codigo na brancha especifica.
+Esse processo não serve apenas para voltar para um commit anterior, serve pra voltar
+para qualquer commit dentro do projeto na branch em questão 
+Para começar a fazer as operações é necessairo usar o seguinte comando
+
+	git checkout (Algum codigo commit especifico)
+
+para ver os commits realizados dentro do projeto é possivel atraves do seguinte comando
+
+	git log
+
+lembrando que se tiver uma quantidade grande de commits é bom usar o comando q para
+sair do git log. O q é diminutivo de quit, que é sair em ingles.
+
+depois de utilizar o git checkout (codigo commit especifico) ira aparecer a mensagem
+de que voce está no estado detached Head e mais algumas outras mensagens. Nesse 
+estado qualquer alteração feita não é associada a nenhuma branch especifica.
+
+E na linha de cima mostra o codigo do commit selecionado.
+Se for utilizado o git log depois do git checkout (codigo commit especifico) 
+provavelmente vai aparecer apenas 2 commits, commit selecionado e o commit
+inicial. Entretanto se eu for utilizar o comando
+
+	git log --all
+
+Ira aparecer todos os commits feito no projeto, nessa branch especifica.
+
+caso, dentro do commit especifico eu queira verificar as informações de todos os 
+commits de uma forma geral mas resumida é só utilizar o seguinte comando:
+
+	git log --oneline --all
+
+Para sair desse commit especifico que eu estou é muito simples, pode ser realizado 
+atraves de dois comandos. Logo abaixo
+
+	git checkout
+
+ou 
+
+	git checkout master
+
+Caso queira utilizar um outro comando, mais atual, mas que faz o mesmo processo,
+é só seguir o fluxo a baixo:
+
+	git switch --detach (codigo do commit)
+
+agora estou no commit especifico, para vizualisar todos os commits de forma resumida
+dentro do repositorio o comando a baixo
+
+	git log --oneline --all
+
+para sair do commit especifico selecionado
+	
+	git checkout master
+
+
+
+
+
