@@ -1,0 +1,25 @@
+Ressaltando que quando utilizo o git checkout eu nao so visualizo o codigo,
+eu volto todo o meu repositorio para o que o codigo era antes. Entao faz
+com que volte toda a funcionalidade. Voltar ao historico volta ao estado que o 
+codigo era naquela altura do commit.
+
+Caso eu esteja em um codigo do passado para fazer verificacao e queira voltar
+o mais indicado seria deletar as modificacoes feitas ate entao. Nesse
+cenario o melhor seria tirar o arquivo do ficheiro para voltar ao normal.
+Eu posso selecionar o arquivo especifico e usar o git reset ou usar o
+comando para tirar todos os arquivos do ficheir. a baixo esta o comando
+para tirar todos do ficheiro:
+
+git reset .
+
+a baixo um exemplo de como seria para tirar um arquivo especifico do ficheiro:
+
+git reset 001_-_adicionar_ao_ficheiro
+
+Depois disso seria so deletar todas as modificacoes feitas com o comando restore:
+
+git restore .
+
+ou selecionar o comando especifico para realizar o restore: 
+
+git restore 001_-_adicionar_ao_ficheiro
