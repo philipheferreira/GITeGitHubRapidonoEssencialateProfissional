@@ -1,0 +1,1 @@
+Estou testando a operacao do gitignore para ver como ira funcionar
