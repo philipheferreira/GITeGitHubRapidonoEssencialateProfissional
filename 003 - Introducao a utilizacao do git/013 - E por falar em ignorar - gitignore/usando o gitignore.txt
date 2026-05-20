@@ -1,0 +1,6 @@
+o arquivo .gitignore ira ignorar qualquer funcionalidade adicionada.
+Faca o teste. com o arquivo com o nome .gitignore e use o comando gitstatus.
+Ele nao ira mostrar nenhum arquivo que voce adicione na pasta e que tenha o nome
+nele, entretanto mude o nome do arquivo .gitignore para .gitaqui por exemplo, 
+vai mostrar o arquivo que voce criou antes. Todo o arquivo que tiver no 
+.gitignore sera ignorado
