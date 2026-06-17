@@ -2,16 +2,16 @@ Caso eu tenha realizado um git commit -m "Mandando uma mensage", entrentanto ain
 realizei o git push, nesse cenario ainda vai ser possivel modificar a mensagem.
 para confirmar que voce fez a mensagem de forma errada recomendo usar o comando
 
-git log --oneline
+	git log --oneline
 
 caso seja confirmado faca o cenario a baixo
 
 Nesse cenario vai ser preciso usar o comando para fazer a correcao dessa mensagem
 
-git commit --amend -m "mensagem praticada com o comando amend"
+	git commit --amend -m "mensagem praticada com o comando amend"
 
 apos realizar a correcao da mensagem faca o comando para verificar se 
 foi corrigida corretamente antes de dar o git push:
 
-gitlog --oneline
+	gitlog --oneline
 

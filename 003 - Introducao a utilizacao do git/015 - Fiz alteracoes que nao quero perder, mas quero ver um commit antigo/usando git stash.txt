@@ -1,0 +1,41 @@
+Eu fiz alteracoes e as alteracoes estao no commit prontas para serem mandadas
+para o github, o repositorio virtual online, entretanto antes de enviar
+eu quero ver um commit antigo sem perder as mudancas atuais feitas, o que eu faco?
+Uso o git stash para nao perder as modificacoes atuais e ver o que foi atualizado, 
+usando o seguinte comando:
+
+	git stash
+
+sera criado um arquivo .gitignore com as modificacoes que estao no ficheiro, as 
+modificacoes existem mas estao guardadas temporariamente, tatno que se eu utilizar 
+o comando a baixo consigo utilziar para verificar o que existe:
+
+	git stash list
+
+Apos essa modificacao eu posso voltar atras no meu codigo para realizar a verificacao
+usando o comando:
+
+	git checkout to 'codigo de commit passado'
+
+Para voltar para a posicao inicial sera necessario usar o checkout como esta a baixo:
+
+	git checkout master
+
+Apos voltar para o tempo atual do historico sera necessario usar o comando stash apply
+para aplicar as mudancas feitas:
+
+	git stash apply
+
+Caso eu crie mais de uma stash eu posso selecionar uma stash especifica para trazer de
+volta em caso de varias stashs criadas usando o comando a baixo:
+
+	git stash apply stash@{1}
+
+isso seleciona uma das stash da lista, que podem ser varias diferentes, caso eu queira
+remover a stash permanetemente sem precisar voltar apenas necessario utilizar o seguinte
+comando:
+
+	git stash drop stash@{0}
+
+isso ira atualizar a lista gerando um novo zero mas diminuindo o tamanho da lista
+O git stash nao ser um recurso muito utilizado

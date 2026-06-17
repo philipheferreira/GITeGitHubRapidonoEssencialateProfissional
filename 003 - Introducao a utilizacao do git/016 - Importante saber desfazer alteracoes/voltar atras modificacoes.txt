@@ -1,0 +1,33 @@
+Sera uma parte de tirar duvidas referente sobre comandos que alteram modificacoes
+feitas dentro do projeto como um todo apos realizar o commit ou antes de fazer 
+o commit.
+Os comandos estao a baixo:
+
+	git restore script.js
+ou
+	git restore .
+
+O git restore sera um comando para voltar qualquer arquivo para o estado que esta 
+salvo no repositorio virtual desde o ultimo commit, ou seja, qualquer modificacao
+feira sem ter mandado para o ficheiro sera retornada para o estado inicial 
+antes das modificacao. Eu posso selecionar um arquivo especifico como no primeiro
+exemplo, ou eu posso apenas selecionar todos os arquivos modificados usando o ponto
+(.)
+
+O seguinte comando faz algo parecido que o anterior:
+
+	git reset script.js
+ou
+	git reset .
+
+O git reset vai ser usado nos casos em que a modificacao ja foi mandada para o 
+ficheiro e so falta mandar para o github, no caso ja foi utilizado o comando
+git add . para isso, entao o reset retira o que foi mandado para o ficheiro
+podendo selecionar o arquivo ou apenas retirar tudo.
+
+O comando a baixo sera uma simplificacao dos dois anteriores
+
+	git restore --staged script.js
+
+tira do ficheiro direto para o estado inicial, ja faz o reset e o restore de uma
+vez
