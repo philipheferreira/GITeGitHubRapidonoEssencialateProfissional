@@ -1,0 +1,3 @@
+O merge vai gerar conflito quando eu fizer um merge pra branch original e ja tiver 
+feito commits tanto na branch que usei a master como base pra criar e tem commits novos
+de partes da master que ja foram modificadas depois de criar essa branch com base nela

@@ -1,0 +1,6 @@
+Caso tenha ocasionado um conflito que nao foi esperado e nao quer realizar as modificacoes
+basta usar o comando para cancelar a merge e as branchs vao voltar a ser o que era, o comando
+em questao sera o 
+
+	git merge --abort
+
