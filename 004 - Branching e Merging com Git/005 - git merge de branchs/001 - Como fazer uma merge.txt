@@ -1,0 +1,13 @@
+Eu tenho que estar na branch que eu quero que va receber os commits atravas do merge. 
+Entao tenho que trocar para a branch master, mudando pra ela:
+
+	git switch master
+
+Ai irei usar o comando merge para adicionar tudo:
+
+	git merge nova_pagina
+
+Agora o git ira confirmar que eu quero somar uma coisa com a outra, caso eu esteja usando
+o visual code sera necessario apenas fechar a pagina que abriu para poder finalizar o merge
+e ai deu tudo certo, caso nao tenha mostrado nenhum conflito, ou seja, nao houve nenhuma 
+dificuldade.
