@@ -1,0 +1,26 @@
+Verificar as branchs existentes com o comando
+
+	git branch
+
+Eu posso utilizar o switch ou o checkout para trocar para uma nova branch:
+
+	git checkout master
+	
+		ou
+
+	git switch master
+
+para deletar uma branch apenas necessario o seguinte comando
+
+	git branch -d testeNovaBranch1
+
+ira ser deletada com sucesso, sera diferente caso eu tenha uma branch
+que tenha informacoes novas e que nao foram imergadas como a branch
+nova_pagina que tem commits unicos dentro dela. Caso queira realmente deletar
+mesmo assim aopenas sera necessario deletar forcadamente ou fazer um merge
+caso sejam informacoes importantes e necessarias. Para deletar forcadamente
+sera necessario o comando a baixo:
+
+	git branch -D nova_pagina
+
+esse comando deleta a branch forcadamente mesmo que tenha commits unicos nela
