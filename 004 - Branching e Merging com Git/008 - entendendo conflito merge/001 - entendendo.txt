@@ -1,0 +1,8 @@
+Utilizar o vi ou o vim para fazer edicoes dos codigos para poder verificar cada 
+parte do codigo nas branchs que ocasionou o conflito entre as branchs.
+
+pelo bash na pasta usar o comando
+
+	vim
+
+se aparecer algo significa que tem o vim instalado
