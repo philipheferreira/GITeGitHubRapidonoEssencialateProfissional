@@ -1,8 +1,8 @@
-O drif ser o comando que parece com o comando de comparar commit anterior com o atual que
+O diff ser o comando que parece com o comando de comparar commit anterior com o atual que
 esta sendo escrito e editado na tela no visual code studio. Para utilizar so precisa
 usar o comando padrao mais o arquivo que precisa ser visualizado:
 
-	girt diff script.js
+	git diff script.js
 
 Alem de ver o comando atual eu tambem posso comparar com commits anteriores no historico
 do github dentro do projeto, para poder comparar um arquivo especifico.
