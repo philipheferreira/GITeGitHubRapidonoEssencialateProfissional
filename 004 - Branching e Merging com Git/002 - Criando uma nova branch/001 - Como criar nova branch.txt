@@ -1,0 +1,115 @@
+Irei fazer o projeto do zero, como se fosse criar um projeto do absoluto zero
+com as funcionalidades.
+
+Primeiro apos criar a pagina utilizar o comando para ver o estado do projeto:
+
+	git status
+
+Como voce criou recentemente apos o comando git status ira retor not a git repository
+porque eu nao criei nada, entao necessario usar o comando para criar um repositorio
+
+	git init
+
+agora foi criada a pasta invisivel para os comandos de repositorio local. Logo apos isso
+se eu usar o comando git log retornara o seguinte erro fatal:
+
+	fatal: your current branch 'master' does not fave any commits yet
+
+Logo, necessario fazermos o primeiro comitt para fazermos o log sem problemas. Logo
+irei utilizar a sequencia de comandos:
+
+	git add .
+
+	git commit -m "primeiro commit"
+
+Apos isso sera necessario eu fazer a listagem das branchs no meu repositorio, que seria 
+onde eu quero chegar. Entao eu posso utilizar o seguinte comando para listar as branchs
+ate o momento existentes, que ate agora so ser a master:
+
+	git branch
+
+esse comando lista as branchs existentes.
+Apos isso faco uma segunda modificacao para mandar ela para o repositorio:
+
+	git add .
+
+	git commit -m "Segundo commit"
+
+Para verificar as informacoes rapidas eu utilizo o comando que ja usamos que e:
+
+	git log --oneline
+
+e para confirmar que tudo esta ok usar o seguinte comando:
+
+	git status
+
+Apos isso montamos um terceiro commit:
+
+	git add .
+
+	git commit -m "Terceiro commit"
+
+Agora iremos utilizar os comandos de branch.
+
+Primeiro irei criar uma nova branch utilizando o seguinte comando:
+
+	git branch nova_pagina
+
+Se eu utilizar o comando de verificacao de branchs ja ira aparecer a nova branch
+
+	git branch
+
+ira aparecer algo assim:
+
+	* master
+	  nova_pagina
+
+O master ainda sera a branch que eu estou usando e selecionada como mostrada pelo *. 
+Agora irei mudar para uma outra branch com o comando a baixo:
+
+	git switch nova_pagina
+
+Para verificar que estou em uma outra branch para a operacao basta utilizar o comando
+de verificacao:
+
+	git branch
+
+Agora ira aparecer assim:
+
+	  master
+	* nova_pagina
+
+Quando eu faco a nova branch ela usa como base a branch master para criar a nova para 
+fazer as operacoes, entao ate o momento elas tem os 3 primeiros commits exatamente iguais
+uma a outra.
+Na nova branch eu faco uma alteracao e adiciono na nova branch:
+
+	git add .
+
+	git commit -m "Primeiro commit na nova branch"
+
+irei voltar para master:
+	
+	git switch master
+
+Agora irei verificar novas formas de criar branchs, existem duas formas. A primeira
+esta logo a baixo, iremos usar o comando checkout em conjunto:
+
+	git checkout -b testeNovaBranch1
+
+O checkout serve para realizar uma mudanca e o -b determina que essa mudanca sera do 
+tipo branch. Apos criar a branch que o nome sera testeNovaBranch1 eu ja irei mudar 
+para essa branch para fazer novas operacoes.
+
+A outra forma sera utilizar o switch com um novo comando:
+
+	git switch -c testeNovaBranch2
+
+O comando switch serve para fazer alteracoes para branch e o -c ja determina a criacao
+de uma nova branch e depois que criala iremos para ela em seguida
+
+
+
+
+
+
