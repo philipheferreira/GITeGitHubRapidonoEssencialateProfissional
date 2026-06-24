@@ -1,0 +1,3 @@
+Caso eu nao tenha credenciais de acesso ao github do meu computador eu posso liberar 
+acesso temporario criando um token pessoal de acesso para o usuario, demonstrado a seguir
+
